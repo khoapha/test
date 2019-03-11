@@ -1,0 +1,168 @@
+.login-form{
+	border: 1px solid lightgray;
+	width: 100%;
+	padding: 0px;
+	border-radius: 5px;
+	margin-top: 150px;
+}
+#head{
+	border-bottom: 1px solid lightgray;
+}
+#head>p{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 17px;
+}
+#form-login input[type=email],input[type="password"]{
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+#register input[type=text],input[type=email],input[type="password"]{
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+#form-login input[type="checkbox"]{
+	margin-left: 20px;
+}
+#form-login button,#register button{
+	display: block;
+	border: none;
+	width: 90%;
+	border-radius: 5px;
+	height: 40px;
+	color: white;
+	margin: auto;
+}
+#form-login>p, #register>p{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/* CSS For Edit profile*/
+.title{
+	padding: 0px;
+	width: 100%;
+	height: 20px;
+	background: lightgray;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	margin-top: 30px;
+}
+.title p{
+	font-size: 14px;
+	color: black;
+}
+
+#submenu{
+	color: black;
+}
+
+.dropdown>ul>li:first-child{
+	border-bottom: 1px solid lightgray;
+}
+
+#edit-profile{
+	display:flex;
+	width: 100%;
+}
+#form-search{
+	width: 30%;
+	background-color: #f8f8f8;
+}
+#info{
+	width: 70%;
+	background-color: white;
+	border-left: 1px solid lightgray;
+}
+.search-container{
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid lightgray;
+}
+.search-container button{
+	margin-top:10px;
+
+}
+
+.search-container input[type=text]{
+	margin-top:10px;
+
+}
+.view-contents{
+	margin-top: 10px;
+	border-bottom: 1px solid lightgray;
+}
+
+.form-content{
+	margin-top: 10px;
+	border-bottom: 1px solid lightgray;
+}
+.view-contents p{
+	margin-left: 10px;
+}
+
+.form-content p{
+	margin-left: 10px;
+}
+.info-head{
+	display: block;
+	margin: auto;
+	width: 90%;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 10px;
+}
+
+.info-main{
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+#form-head{
+	background-color: #f8f8f8;
+	height: 30px;
+	border-bottom: 1px solid lightgray;
+}
+#form-head>span{
+	display: block;
+	padding-top: 5px;
+	margin-left: 10px;
+}
+
+#form-edit label{
+	margin: 5px 0px 0px 12px;
+}
+#form-edit input{
+	width: 95%;
+	display: block;
+	margin: auto;
+	height: 30px;
+}
+#form-edit textarea{
+	width: 95%;
+	display: block;
+	margin: auto;
+}
+#form-edit p{
+	margin-left: 12px;
+}
+
+#form-edit button{
+	margin: 0px 0px 10px 12px;
+}
+
+span{
+	margin : 0px 0px 0px 20px;
+}
+
+#avatar{
+	vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
