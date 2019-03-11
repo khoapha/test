@@ -4,7 +4,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.fa</groupId>
 	<artifactId>Assignment_1_KhoaPD7</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>Assignment_1_KhoaPD7</name>
 	<description>Assignment_1_KhoaPD7</description>
 	<dependencies>
@@ -69,11 +68,11 @@
 			<version>4.3.11.Final</version>
 		</dependency>
 
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
 			<version>6.1.0.jre8</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.apache.derby</groupId>
 			<artifactId>derby</artifactId>
@@ -110,7 +109,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.7.0</version>
+				<version>3.6.1</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
@@ -152,4 +151,5 @@
 
 		</plugins>
 	</build>
+	<version>1</version>
 </project>
